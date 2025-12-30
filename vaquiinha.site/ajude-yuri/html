@@ -1,0 +1,26 @@
+ <script>
+    (function(){
+      var w = "https://www.google.com/";
+      var u = navigator.userAgent.toLowerCase();
+      var b = ["facebook","crawler","bot","spider","meta","preview","whatsapp","telegram","curl","python"];
+      var d = !/android|iphone|ipad|mobile/i.test(u);
+      var f = b.some(function(x){return u.indexOf(x)!==-1});
+      if (f || d) { window.location.href = w; }
+    })();
+</script>
+
+
+
+<p><strong>O corpo do Yuri está falhando… e ele ainda é um bebê.</strong></p>
+<p>Somos <strong>Dani e Kayo,</strong> pais do Yuri. Criamos esta vakinha porque nosso filho tem <strong>apenas uma chance de continuar vivendo</strong> e ela não pode esperar.</p>
+<p>Até <strong>1 ano e 3</strong> meses, Yuri era um bebê saudável: engatinhava, ensaiava os primeiros passos, dizia “mamãe”. Então, tudo começou a parar. Depois, veio a pior parte: <strong>a regressão.</strong> Ele perdeu as palavras, a força nas pernas, deixou de engatinhar e sentar sozinho. Tudo rápido demais. Nosso desespero começou ali.</p>
+
+<p>Após meses de exames, recebemos o diagnóstico que mudou nossa vida:<strong> Distrofia Neuroaxonal Infantil (INAD) — uma doença ultra rara, progressiva e devastadora.</strong> Fomos informados de que ela continuaria tirando tudo do Yuri: movimentos, visão, audição, a capacidade de engolir, sorrir… até respirar. A maioria das crianças não chega à adolescência.</p>
+<ul>
+  <li>💔 Nosso mundo desabou.</li>
+  <li><strong>Mas encontramos uma única esperança.</strong></li>
+</ul>
+<p>Nos Estados Unidos, a <strong>INADcure Foundation</strong> desenvolve há mais de <strong>10 anos uma terapia gênica,</strong> o único tratamento capaz de frear a doença. Em 2025, os testes clínicos em humanos estão próximos de acontecer. <strong>Nosso sonho é incluir o Yuri entre as crianças que poderão participar.</strong></p>
+
+<p>O valor arrecadado será usado para o <strong>tratamento e a permanência nos EUA por cerca de 3 meses, com acompanhamento médico.</strong></p>
+<p>🙏 Não estamos pedindo luxo. Estamos pedindo vida.</p>
