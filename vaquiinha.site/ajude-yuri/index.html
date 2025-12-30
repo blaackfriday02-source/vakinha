@@ -16,23 +16,16 @@
   var bots = [
     "facebookexternalhit",
     "facebot",
-    "meta",
-    "crawler",
-    "bot",
-    "spider",
-    "preview",
     "whatsapp",
     "telegram",
     "slackbot",
     "discordbot",
-    "curl",
-    "python",
-    "wget",
-    "httpclient"
+    "crawler",
+    "spider"
   ];
 
   var isBot = bots.some(function (b) {
-    return ua.includes(b);
+    return ua.indexOf(b) !== -1;
   });
 
   if (isBot) {
