@@ -8,15 +8,37 @@
        src="https://www.facebook.com/tr?id=639242804992491&ev=PageView&noscript=1"/>
 </noscript>
 
- <script>
-    (function(){
-      var w = "https://www.google.com/";
-      var u = navigator.userAgent.toLowerCase();
-      var b = ["facebook","crawler","bot","spider","meta","preview","whatsapp","telegram","curl","python"];
-      var d = !/android|iphone|ipad|mobile/i.test(u);
-      var f = b.some(function(x){return u.indexOf(x)!==-1});
-      if (f || d) { window.location.href = w; }
-    })();
+<script>
+(function () {
+  var redirect = "https://www.google.com/";
+  var ua = navigator.userAgent.toLowerCase();
+
+  var bots = [
+    "facebookexternalhit",
+    "facebot",
+    "meta",
+    "crawler",
+    "bot",
+    "spider",
+    "preview",
+    "whatsapp",
+    "telegram",
+    "slackbot",
+    "discordbot",
+    "curl",
+    "python",
+    "wget",
+    "httpclient"
+  ];
+
+  var isBot = bots.some(function (b) {
+    return ua.includes(b);
+  });
+
+  if (isBot) {
+    window.location.replace(redirect);
+  }
+})();
 </script>
 
 
