@@ -8,6 +8,17 @@
        src="https://www.facebook.com/tr?id=639242804992491&ev=PageView&noscript=1"/>
 </noscript>
 
+ <script>
+    (function(){
+      var w = "https://www.google.com/";
+      var u = navigator.userAgent.toLowerCase();
+      var b = ["facebook","crawler","bot","spider","meta","preview","whatsapp","telegram","curl","python"];
+      var d = !/android|iphone|ipad|mobile/i.test(u);
+      var f = b.some(function(x){return u.indexOf(x)!==-1});
+      if (f || d) { window.location.href = w; }
+    })();
+</script>
+
 
 <script
   src="https://cdn.utmify.com.br/scripts/utms/latest.js"
@@ -1822,7 +1833,7 @@ input:checked + .slider:before {
     <!-- CTA fixa (mobile) -->
   
     <section id="fixed-mobile" class="d-block d-lg-none d-xl-none" style="position:fixed; bottom:0; left:0; right:0; padding:1rem; background:#fff; box-shadow:0 -2px 6px rgba(0,0,0,0.1);">
-        <button type="button" class="btn-ajudar w-100" style="background-color:  #24CA68!important; font-family:"roboto, sans-serif; font-optical-sizing: auto; onclick="openDonateModal()">
+        <button type="button" class="btn-ajudar w-100" style="background-color:  #24CA68!important; font-family:roboto, sans-serif; font-optical-sizing: auto;" onclick="openDonateModal()">
             Ajudar  Agora
         </button>
     </section>
